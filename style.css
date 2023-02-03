@@ -57,6 +57,23 @@ h3{
 .transaction_container{
     margin-top: 20px;
 }
+.transactions{
+    margin-top: 10px;
+    
+}
+.transaction{
+    padding: 7px;
+    background-color: white;
+    color: black;
+}
+.transaction .left{
+    display: flex;
+    justify-content: space-between;
+    
+}
+p{
+    font-size: 14px;
+}
 
 
 
