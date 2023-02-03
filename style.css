@@ -1,19 +1,40 @@
 :root{
-    background-color: blanchedalmond;
+    background-color: white
 }
 body{
 font-family: 'Times New Roman', Times, serif;
-background-color: white;
-margin-top: 70px;
-margin-bottom: 70px;
-margin-left: 600px;
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: rem;
-gap: 1rem;
-height: 100vh;
-width: 800px;
+}
+.Container{
+    display:grid;
+    place-items:center;
+    height: 100vh;
+}
+.box
+{
+    background-color: rgb(183, 229, 183);
+    width:450px;
+    height: 850px;
+    padding: 20px;
+}
+h1{
+    font-weight: 500;
+    font-size: 20px;
+}
+h2{
+    font-weight: 400;
+    font-size: 24px;
+}
+h3{
+    font-weight: 400;
+    font-size: 20px;
+}
+.box_upper,.balance{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.balance{
+    margin-top: 10px;
 }
 
 
@@ -22,8 +43,4 @@ width: 800px;
 
 
 
-*{
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-}
+
